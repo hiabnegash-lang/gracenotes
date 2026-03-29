@@ -1,12 +1,8 @@
 import React from 'react'
+import GraceNotes from './GraceNotes-Final'
 
 function App() {
-  return (
-    <div>
-      <h1>GraceNotes</h1>
-      <p>Welcome to your React app!</p>
-    </div>
-  )
+  return <GraceNotes />
 }
 
 export default App
