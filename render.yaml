@@ -1,6 +1,6 @@
 services:
   - type: web
     name: gracenotes
-    runtime: static
+    runtime: node
     buildCommand: npm ci && npm run build
-    staticPublishPath: ./dist
+    startCommand: npx serve -s dist -l $PORT
