@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: gracenotes
+    runtime: static
+    buildCommand: npm run build
+    staticPublishPath: ./dist
